@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="nav" style="height: 80px;background-color: rgb(253, 253, 253);">
+  <a  href="https://www.blablacar.fr/bus"><img id="logo" src="bla.png" alt=""> </a>
+  <a id="covoiturage"href="#">Covoiturage</a>
+  <a id="bus"href="#">Bus</a>
+  <a id="rechercher"href="#">Rechercher</a>
+</div>
+<div class ="banner">
+  <img id ="bannsize"src="banner.svg" alt="">
+  <div id="search">
+    <div id="form-container">
+    <form action="/action_page.php">
+      <label for="phone">Départ</label>
+      <input type="tel" id="phone" name="phone" placeholder="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      <label for="phone">Destination</label>
+      <input type="tel" id="phone" name="phone" placeholder="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      <label for="start">Aujourd'hui:</label>
+      <input id="today" type="date">
+    </form>
+  </div>
+  </div>
+</div>
+
+
+<div id="footer">
+<footer>
+  <img id="logofoot" src="logo_f.png" alt="">
+  <p>BlaBlaCar, 2022 © </p>
+</footer>
+</div>
+</body>
+</html>
+
+
+
+INSERT INTO Trajets (idTrajet, villeDepart, villeArrive, prixRecommande)
+VALUES (2, "Montpellier", "Paris", 70),
+(3, "Montpellier", "Barcelone", 22),
+(4, "Barcelone", "Montpellier", 19),
+(5, "Montpellier", "Madrid", 32),
+(6, "Madrid", "Montpellier", 27),
+(7, "Montpellier", "Milan", 35),
+(8, "Milan", "Montpellier", 32);
+
+
