@@ -1,5 +1,5 @@
 *{
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu','bold',sans-serif;
 }
 
 #logo{
@@ -31,6 +31,12 @@
 
 }
 
+#search-container{
+    padding-top: 25px;
+    margin-left: 400px;
+
+}
+
 .banner{
   width: auto;
   height: 30px;
@@ -48,6 +54,7 @@
     margin-left: 85%;
     background:rgb(255, 255, 255);
  }
+
 
  #form-container{
     height: 30px;
